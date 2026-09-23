@@ -18,20 +18,28 @@ Create your own **contributor card** (a small HTML page about you) and add it to
 3. Create `contributors/YOUR-GITHUB-USERNAME.html` using [`contributors/TEMPLATE.html`](https://github.com/IEEE-Student-Branch-NSBM/TechnoVac-3.1/blob/main/contributors/TEMPLATE.html).
 4. Open a pull request with `Closes #1` in the description.
 
+## Finished early? Bonus task
+
+Do your contributor card first. Then pick one fun-fact page issue (space, football, movies, food, or gaming) and create `facts/TOPIC-YOUR-GITHUB-USERNAME.html` using [`facts/TEMPLATE.html`](https://github.com/IEEE-Student-Branch-NSBM/TechnoVac-3.1/blob/main/facts/TEMPLATE.html). For example: `facts/space-octocat.html`.
+
+Bonus pull requests are great practice, but they **do not count toward the prizes**.
+
 ## Links
 
 - Repository: https://github.com/IEEE-Student-Branch-NSBM/TechnoVac-3.1
 - Main issue: https://github.com/IEEE-Student-Branch-NSBM/TechnoVac-3.1/issues/1
 - All issues: https://github.com/IEEE-Student-Branch-NSBM/TechnoVac-3.1/issues
 - Pull requests: https://github.com/IEEE-Student-Branch-NSBM/TechnoVac-3.1/pulls
-- Template: https://github.com/IEEE-Student-Branch-NSBM/TechnoVac-3.1/blob/main/contributors/TEMPLATE.html
+- Contributor card template: https://github.com/IEEE-Student-Branch-NSBM/TechnoVac-3.1/blob/main/contributors/TEMPLATE.html
+- Fun-fact page template: https://github.com/IEEE-Student-Branch-NSBM/TechnoVac-3.1/blob/main/facts/TEMPLATE.html
 
 ## Labels
 
-| Label | Meaning |
-|---|---|
-| `technovac 3.1` | A contribution made during the event |
-| `technovac 3.1 accepted` | Your pull request was reviewed and merged by an organizer |
+| Label                    | Meaning                                                                      |
+| ------------------------ | ---------------------------------------------------------------------------- |
+| `technovac 3.1`          | A contribution made during the event                                         |
+| `technovac 3.1 accepted` | Your contributor card pull request was reviewed and merged by an organizer   |
+| `technovac 3.1 bonus`    | Your bonus fun-fact page was reviewed and merged (does not count for prizes) |
 
 ## 🏆 Winners
 
@@ -40,6 +48,7 @@ Create your own **contributor card** (a small HTML page about you) and add it to
 - Your PR must be **merged** and have the `technovac 3.1 accepted` label.
 - Order is decided by the time you opened your PR. PRs that break the rules are skipped.
 - One win per person. No spam or empty files.
+- Bonus pull requests (fun-fact pages) do not count.
 
 ## Repository structure
 
@@ -47,7 +56,9 @@ Create your own **contributor card** (a small HTML page about you) and add it to
 .
 ├── README.md
 ├── CONTRIBUTING.md
-└── contributors/
+├── contributors/
+│   └── TEMPLATE.html
+└── facts/
     └── TEMPLATE.html
 ```
 
