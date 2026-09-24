@@ -41,7 +41,12 @@ This makes your own copy of the repo under your account.
 
 1. Check that the pull request is going **from your fork to the original repo**.
 2. Title: `feat: add contributor card for your-name`
-3. In the description write: `Closes #1`
+3. In the description write `Closes #1`, then add 1-2 lines about what you did. Example:
+   ```
+   Closes #1
+
+   Added my contributor card with my name, favorite language, and a fun fact.
+   ```
 4. Click **Create pull request**.
 
 ### Step 6: Wait for review
@@ -79,7 +84,7 @@ Do your contributor card first. Then pick **one** fun-fact page issue (space, fo
 3. Name it `TOPIC-YOUR-GITHUB-USERNAME.html` (for example `space-octocat.html`).
 4. Copy everything from [`facts/TEMPLATE.html`](https://github.com/IEEE-Student-Branch-NSBM/TechnoVac-3.1/blob/main/facts/TEMPLATE.html), paste it, and change the topic, your username, and the 3 facts.
 5. Commit to a new branch named `feat/TOPIC-YOUR-GITHUB-USERNAME` (for example `feat/space-octocat`) with the message `feat: add TOPIC fun-fact page`.
-6. Open a pull request with `Closes #ISSUE-NUMBER` in the description.
+6. Open a pull request with `Closes #ISSUE-NUMBER` in the description, and add 1-2 lines about what you added.
 
 Facts must be true and in your own words. Bonus PRs are great practice, but they do not count toward the prizes.
 
