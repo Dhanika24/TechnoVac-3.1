@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Card</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        text-align: center;
+        margin-top: 60px;
+      }
+      .card {
+        display: inline-block;
+        padding: 24px 40px;
+        border: 2px solid #6b46c1;
+        border-radius: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1>Dhanika Nadeeja</h1>
+      <p>GitHub: @Dhanika24
+     </p>
+      <p>Favorite language:python</p>
+      <p>Fun fact: no any fun fact</p>
+    </div>
+  </body>
+</html>
